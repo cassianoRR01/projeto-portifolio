@@ -17,8 +17,15 @@
 root {
   --fundo-principal: #f5f5f5;
   --texto: #222222;
-  --texto-inverso
-  --destaque
-  --destaque-inverso
-  --fundo-card
+  --texto-inverso: #ffffff;
+  --destaque: #0077ff;
+  --destaque-inverso: #66bbff;
+  --fundo-card: #ffffff;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5em;
+  background-color: var(--fundo-principal);
+  color: var(--texto);
 }
